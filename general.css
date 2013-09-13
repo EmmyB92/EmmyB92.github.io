@@ -1,0 +1,171 @@
+@-moz-viewport { width:device-width; scale: 1; }
+@-ms-viewport { width:device-width; scale: 1; }
+@-o-viewport { width:device-width; scale: 1; }
+@-webkit-viewport { width:device-width; scale: 1; }
+@viewport { width:device-width; scale: 1; }
+
+html {
+	background-color:#FC9;
+	font: normal 100%/1.4 Georgia, "Times New Roman", Times, serif;
+} 
+
+p {
+	color: #09C;
+	font-family: Georgia, "Times New Roman", Times, serif;
+} 
+
+h1, h2 {
+	color: #F96;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+article {
+	background-color: #fff;
+	box-shadow: .5em;
+	padding: 0.5em;
+	overflow: hidden;
+}
+
+.flex-img {
+	width: 100%;
+}
+
+figure {
+	margin: 0 -0.5em;
+	padding-right: 0.5em;
+}
+
+figcaption {
+	padding: 0 0.5em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F96;
+	font-size: 12px;
+}
+
+dl {
+	border: 1px;
+	overflow: hidden;
+	/* Clearfix: reminds the element to wrap around all its floated children */
+}
+
+dt {
+	color: #09F;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	margin: 1em 0;
+}
+
+dd { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	color: #004;
+}
+header p {
+	padding-left: 3rem;
+}
+
+.icon { 
+	color: #ccc;
+	width: 3rem;
+	display: inline-block;
+}
+
+.intro {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 1.4em -0.5em;
+	padding: 0.5em;
+	color: #004;
+}
+
+.contact {
+	font-size:14px;
+	margin: 0.5em 0.1em;
+}
+
+@media only screen and (min-width: 25em) {
+	
+	dt {
+		float: left;
+		clear: both;
+		width: 10em;
+	}
+	
+	dd {
+		float: right;
+	
+	}
+	
+	figure {
+		padding-left: 2em;
+	}
+}
+
+@media only screen and (min-width: 37em) {
+	
+	figure {
+		float: right;
+		width: 40%;
+		margin: 0;
+	}
+
+}
+
+@media only screen and (min-width: 50em) {
+	
+	figure {
+		float: left;
+		width: 40%;
+		margin: 0;
+		padding-right: 2em;
+	}
+	
+	article {
+		padding-right: 2em;
+
+}
+}
+
+@media only screen and (min-width: 70em) {
+	
+	figure {
+		float: right;
+		width: 40%;
+		margin: 1em;
+		padding-left: 2em;
+	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+	article {
+		padding-left: 4em;
+		padding-right: 7em;
+	}
+	
+	figcaption {
+		font-size: 14px;
+	}
+	.contact {
+		font-size: 16px;
+		margin-top: 1em;
+	}
+	
+	html {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 85em) {
+	
+	article {
+		padding-right: 6em;
+		padding-left: 5em;
+	}
+
+	html {
+		font-size: 24px;
+	}
+
+}
