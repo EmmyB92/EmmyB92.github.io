@@ -1,3 +1,3 @@
-# EmmyB92-github.io
+# Emily's Portfolio
 
 Emily Barclay's amazing portfolio website! 
