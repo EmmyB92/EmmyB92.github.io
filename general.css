@@ -26,6 +26,23 @@ article {
 	overflow: hidden;
 }
 
+nav {
+	float: left;
+}
+
+ul {
+	text-align: left;
+	text-decoration: none;
+	color: #F63;
+}
+
+li {
+	display: inline;
+	padding: 2em 2em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
 .flex-img {
 	width: 100%;
 }
@@ -40,6 +57,11 @@ figcaption {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #F96;
 	font-size: 12px;
+}
+
+figcap {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
 }
 
 dl {
